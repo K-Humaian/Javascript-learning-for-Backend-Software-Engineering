@@ -35,7 +35,7 @@ function greet(person1, person2, callback, name) {
     if (typeof callback === "function")
         callback(name);
 }
-greet("Kabir", "Humaian");
+greet("Kabir", "Humaian", SayhisName, "Eham");
 /*
     typeof callback === "function" checks if the callback variable is actually a function.
 1. If it is a function, then callback(name); calls that function and passes name as its argument.
